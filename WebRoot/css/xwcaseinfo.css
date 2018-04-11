@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+#box{
+	margin-left:auto;
+	margin-right:auto;
+	width:700px;
+	height:600px;
+	color:#383838;
+}
+#imgbox{
+	height:450px;
+	width:300px;
+}
+#imgbox img{
+	width:100%;
+	height:100%;
+}
+#xwtitle{
+	width:120px;
+	margin-left:auto;
+	margin-right:auto;
+	color:#f75000;
+	font-size:25px;
+}

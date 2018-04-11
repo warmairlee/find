@@ -1,0 +1,140 @@
+@CHARSET "UTF-8";
+
+#searchbar{
+	margin-top:25px;
+	margin-left:auto;
+	margin-right:auto;
+	width:1000px;
+}
+#fb{
+	float:right;
+	position:relative;
+	top:-50px;
+	height:50px;
+	width:200px;
+}
+#fb a:link{
+	background:url(../images/zl/fb1.png) no-repeat;
+	background-size:contain;
+	display:block;
+	height:50px;
+}
+#fb a:hover{
+	background:url(../images/zl/fb2.png) no-repeat;
+	background-size:contain;
+	display:block;
+	height:50px;
+}
+#contentbox{
+	width:1250px;
+	height:850px;
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#zl{
+	width:400px;
+	height:242px;
+	border: 2px solid #ACD6FF;
+	margin-top:15px;
+	margin-right:10px;
+	float:left;
+}
+
+#zl_img{
+	width:200px;
+	height:240px;
+	border: 2px solid #ACD6FF;
+}
+#zl_img img{
+	width:100%;
+	height:100%;
+}
+#zl_title{
+	padding-left:2px;
+	width:200px;
+	height:40px;
+	position:relative;
+	left:200px;
+	top:-240px;
+	border-bottom: 2px solid #ACD6FF;
+}
+#zl_title #content{
+	padding-left:5px;
+	border-left: 2px solid #ACD6FF;
+	width:155px;
+	height:40px;
+	position:relative;
+	top:-19px;
+	left:45px;
+}
+#zl_title #content a:link,#zl_title #content a:visited{
+	color:#6c6c6c;
+	text-decoration:none;
+}
+#zl_title #content a:hover{
+	color:#0000e3;
+	text-decoration:none;
+	font-weight:bold;
+}
+#zl_time{
+	padding-left:2px;
+	width:200px;
+	height:20px;
+	position:relative;
+	left:200px;
+	top:-240px;
+	border-bottom: 2px solid #ACD6FF;
+}
+#zl_time #content{
+	padding-left:5px;
+	border-left: 2px solid #ACD6FF;
+	width:125px;
+	height:20px;
+	position:relative;
+	top:-18px;
+	left:75px;
+}
+#zl_place{
+	padding-left:2px;
+	width:200px;
+	height:60px;
+	position:relative;
+	left:200px;
+	top:-240px;
+	border-bottom: 2px solid #ACD6FF;
+}
+#zl_place #content{
+	padding-left:5px;
+	border-left: 2px solid #ACD6FF;
+	width:125px;
+	height:60px;
+	position:relative;
+	top:-18px;
+	left:75px;
+}
+#zl_des{
+	position:relative;
+	left:203px;
+	top:-235px;
+}
+#page{
+	margin-left:auto;
+	margin-right:auto;
+	height:50px;
+	width:900px;
+	text-align:center;
+	color:grey;
+	font-size:17px;
+}
+#page a{
+	text-decoration:none;
+	color:black;
+}
+#myzl{
+	width:120px;
+	margin-left:auto;
+	margin-right:auto;
+	color:#0066cc;
+	font-size:25px;
+}

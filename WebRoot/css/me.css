@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+#box{
+	margin-left:auto;
+	margin-right:auto;
+	width:710px;
+	height:680px;
+}
+#headp{
+	width:300px;
+	height:350px;
+}
+#headp img{
+	width:100%;
+}
+#box #tbg{
+	width:700px;
+	height:100%;
+	background:url(../images/me/tbg.jpg) no-repeat;
+	background-size:cover;
+}
+#box #bbg{
+	width:700px;
+	height:100%;
+	background:url(../images/me/bbg.jpg) no-repeat;
+	background-size:cover;
+}
+#box #but{
+	text-align:center;
+}
+#box #but a:link,#box a:visited{
+	text-decoration:none;
+	color: #3251E0;
+}
+#box #but .uphead{
+	color:#ff7575;
+	font-weight:bold;
+	text-align:center;
+}
+#box #but .pwd a:hover{
+	color:#000;
+	text-decoration:none;
+	font-weight:bold;
+}
+#box #but .xw a:hover{
+	color:#ffcbb3;
+	text-decoration:none;
+	font-weight:bold;
+}
+#box #but .zl a:hover{
+	color:#ACD6FF;
+	text-decoration:none;
+	font-weight:bold;
+}
+

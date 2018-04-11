@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+.tbg{
+	width:auto;
+	height:70px;
+}
+.log1{
+	width:55px;
+	height:60px;
+	background:url(../images/head/1.jpg);
+	background-size:cover;
+	position:relative;
+	left:250px;
+	top:5px;
+}
+.log2{
+	width:150px;
+	height:35px;
+	background:url(../images/head/2.png);
+	background-size:cover;
+	position:relative;
+	left:300px;
+	top:-55px;
+}
+.log3{
+	width:150px;
+	height:20px;
+	background:url(../images/head/3.png);
+	background-size:cover;
+	position:relative;
+	left:306px;
+	top:-55px;
+}
+.bbg{
+	width:auto;
+	height:45px;
+	background:url(../images/head/bbg.png);
+}
+#sth{
+	float:right;
+	position:relative;
+	font-size:17px;
+	top:-90px;
+}
+#sth #userinfo a{
+	text-decoration: none;
+}
+.bbg .daohang{
+	font-size:20px;
+	height:35px;
+	width:1100px;
+	margin-right:auto;
+	margin-left:auto;
+	position:relative;
+	top:-40px;
+}
+.bbg .daohang ul{
+	margin:0px;
+	padding:0px;
+}
+.bbg .daohang li{
+	list-style-type:none;
+	width:120px;
+	float:left;
+	margin-left:30px;
+	margin-right:30px;
+}
+.bbg .daohang li a{
+	
+	line-height:35px;
+	color:white;
+	text-decoration: none;
+	text-align: center;
+}
+.bbg .daohang li a:hover{
+	background-color:#008CFF;
+}
+

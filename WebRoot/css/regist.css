@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+.box{
+	margin-left:auto;
+	margin-right:auto;
+	width:660px;
+	height:520px;
+	
+}
+.title{
+	width:150px;
+	font-weight:bold;
+	color:#06c;
+	font-size:30px;
+	position:relative;
+	left:100px;
+	top:20px;
+}
+.title2{
+	width:150px;
+	font-weight:bold;
+	color:#06c;
+	position:relative;
+	left:485px;
+	top:-380px;
+}
+.phone{
+	width:250px;
+	color:#656565;
+	height:40px;
+	position:relative;
+	left:45px;
+	top:60px;
+}
+.pwd{
+	width:250px;
+	color:#656565;
+	height:40px;
+	position:relative;
+	left:45px;
+	top:85px;
+}
+.pwd2{
+	width:250px;
+	color:#656565;
+	height:40px;
+	position:relative;
+	left:45px;
+	top:100px;
+}
+.nickname{
+	width:250px;
+	color:#656565;
+	height:40px;
+	position:relative;
+	left:45px;
+	top:125px;
+}
+.checkcode{
+	width:250px;
+	color:#656565;
+	height:70px;
+	position:relative;
+	left:45px;
+	top:145px;
+}
+#checkcodeboxleft{
+	margin-top:5px;
+	height:20px;
+	width:150px;
+}
+#checkcodeboxright{
+	position:relative;
+	top:-20px;
+	left:163px;
+	width:69px;
+	height:25px;
+}
+.submit{
+	width:100px;
+	height:40px;
+	position:relative;
+	left:55px;
+	top:165px;
+}
+.submit a:link{
+	background:url(../images/regist/submit.png) no-repeat 0px 0px;
+	display:block;
+	height:40px;
+}
+.submit a:hover{
+	background:url(../images/regist/submit.png) no-repeat -108px 0px;
+	display:block;
+	height:40px;
+}
+.line{
+	position:relative;
+	height:250px;
+	width:5px;
+	left:405px;
+	top:-150px;
+	background:url(../images/regist/line.png) repeat;
+	}
+.login{
+	width:100px;
+	height:40px;
+	position:relative;
+	left:485px;
+	top:-350px;
+}
+.login a:link{
+	background:url(../images/regist/login.png) no-repeat 0px 0px;
+	display:block;
+	height:40px;
+}
+.login a:hover{
+	background:url(../images/regist/login.png) no-repeat -108px 0px;
+	display:block;
+	height:40px;
+}
+.tip{
+    color:red;
+    font-size:15px;
+   }

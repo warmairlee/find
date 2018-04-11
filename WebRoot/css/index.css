@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+.line2{
+	font-family:宋体;
+	width:1000px;
+	height:450px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.line2 .left{
+	width:350px;
+	height:420px;
+	float:left;
+	color:#6c6c6c;
+	font-size:17px;
+	padding:0px;
+	
+}
+.line2 .left .top{
+	height:272.5px;
+	background:url(../images/index/left.png);
+	background-size:contain;
+	margin:0px;
+	border:2px solid #6C6C6C;
+}
+.line2 .left .bottom{
+	padding-top:5px;
+	height:130px;
+	text-align:center;
+	border:2px solid #6C6C6C;
+	border-top-color:#FFFFFF;
+}
+
+.line2 .right{
+	width:350px;
+	height:420px;
+	float:right;
+	color:#6c6c6c;
+	font-size:17px;
+	padding:0px;
+}
+.line2 .right .top{
+	height:272.5px;
+	background:url(../images/index/right.png);
+	background-size:contain;
+	margin:0px;
+	border:2px solid #6C6C6C;
+}
+.line2 .right .bottom{
+	padding-top:5px;
+	height:130px;
+	text-align:center;
+	border:2px solid #6C6C6C;
+	border-top-color:#FFFFFF;
+}
+.line3{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	width:1000px;
+	height:550px;
+}
+.line3 .top{
+	text-align:center;
+	height:350px;
+}
+.line3 .bottom{
+	text-align:center;
+	height:350px;
+}

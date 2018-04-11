@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>ZhaolingServlet</servlet-name>
+    <servlet-class>cn.servlet.ZhaolingServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RegistServlet</servlet-name>
+    <servlet-class>cn.servlet.RegistServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>cn.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>cn.servlet.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>XunwuServlet</servlet-name>
+    <servlet-class>cn.servlet.XunwuServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FeedbackServlet</servlet-name>
+    <servlet-class>cn.servlet.FeedbackServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>XWCaseListServlet</servlet-name>
+    <servlet-class>cn.servlet.XWCaseListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CaseImgServlet</servlet-name>
+    <servlet-class>cn.servlet.CaseImgServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ZLCaseListServlet</servlet-name>
+    <servlet-class>cn.servlet.ZLCaseListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MeServlet</servlet-name>
+    <servlet-class>cn.servlet.MeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MeActionServlet</servlet-name>
+    <servlet-class>cn.servlet.MeActionServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>IsLoginXWServlet</servlet-name>
+    <servlet-class>cn.servlet.IsLoginXWServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>IsLoginZLServlet</servlet-name>
+    <servlet-class>cn.servlet.IsLoginZLServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>myXWCaseListServlet</servlet-name>
+    <servlet-class>cn.servlet.myXWCaseListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>myZLCaseListServlet</servlet-name>
+    <servlet-class>cn.servlet.myZLCaseListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>XWCaseInfoServlet</servlet-name>
+    <servlet-class>cn.servlet.XWCaseInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ZLCaseInfoServlet</servlet-name>
+    <servlet-class>cn.servlet.ZLCaseInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ChangePWDServlet</servlet-name>
+    <servlet-class>cn.servlet.ChangePWDServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CheckCodeServlet</servlet-name>
+    <servlet-class>cn.servlet.CheckCodeServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>ZhaolingServlet</servlet-name>
+    <url-pattern>/servlet/ZhaolingServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegistServlet</servlet-name>
+    <url-pattern>/servlet/RegistServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/servlet/LoginServlet</url-pattern>
+  </servlet-mapping>	
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/servlet/LogoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>XunwuServlet</servlet-name>
+    <url-pattern>/servlet/XunwuServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FeedbackServlet</servlet-name>
+    <url-pattern>/servlet/FeedbackServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>XWCaseListServlet</servlet-name>
+    <url-pattern>/servlet/XWCaseListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CaseImgServlet</servlet-name>
+    <url-pattern>/servlet/CaseImgServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ZLCaseListServlet</servlet-name>
+    <url-pattern>/servlet/ZLCaseListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MeServlet</servlet-name>
+    <url-pattern>/servlet/MeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MeActionServlet</servlet-name>
+    <url-pattern>/servlet/MeActionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>IsLoginXWServlet</servlet-name>
+    <url-pattern>/servlet/IsLoginXWServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>IsLoginZLServlet</servlet-name>
+    <url-pattern>/servlet/IsLoginZLServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>myXWCaseListServlet</servlet-name>
+    <url-pattern>/servlet/myXWCaseListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>myZLCaseListServlet</servlet-name>
+    <url-pattern>/servlet/myZLCaseListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>XWCaseInfoServlet</servlet-name>
+    <url-pattern>/servlet/XWCaseInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ZLCaseInfoServlet</servlet-name>
+    <url-pattern>/servlet/ZLCaseInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangePWDServlet</servlet-name>
+    <url-pattern>/servlet/ChangePWDServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckCodeServlet</servlet-name>
+    <url-pattern>/servlet/CheckCodeServlet</url-pattern>
+  </servlet-mapping>
+
+  
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

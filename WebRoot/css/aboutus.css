@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+.aboutus{
+	height:30px;
+	width:auto;
+}
+.gywm a:link{
+	background:url(../images/aboutus/1.png) no-repeat;
+	background-size:contain;
+	display:block;
+	height:50px;
+	
+}
+.gywm a:hover{
+	background:url(../images/aboutus/2.png) no-repeat;
+	background-size:contain;
+	display:block;
+	height:50px;
+}
+.lxwm a:link{
+	background:url(../images/aboutus/3.png) no-repeat;
+	background-size:contain;
+	display:block;
+	height:50px;
+	
+}
+.lxwm a:hover{
+	background:url(../images/aboutus/4.png) no-repeat;
+	background-size:contain;
+	display:block;
+	height:50px;
+}
+

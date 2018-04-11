@@ -1,0 +1,18 @@
+@CHARSET "UTF-8";
+#box{
+	padding-top:100px;
+	margin-right:auto;
+	margin-left:auto;
+	height:400px;
+	width:200px;
+	font-size:20px;
+	color:#383838;
+}
+#box input{
+	height:30px;
+	width:200px;
+}
+#but{
+	height:20x;
+	text-align:center;
+}

@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+.box{
+	margin-left:auto;
+	margin-right:auto;
+	width:460px;
+	height:520px;
+}
+.title{
+	width:150px;
+	font-weight:bold;
+	color:#0066cc;
+	font-size:30px;
+	position:relative;
+	left:100px;
+	top:20px;
+}
+.title2{
+	width:300px;
+	height:40px;
+	font-size:15px;
+	position:relative;
+	left:45px;
+	top:150px;
+	color:#404040;
+}
+.title3{
+	width:180px;
+	height:25px;
+	font-size:13px;
+	position:relative;
+	left:200px;
+	top:-20px;
+	
+}
+.title3 a:link,a:visited{
+	color:#656565;
+	text-decoration:none;
+}
+.title3 a:hover{
+	text-decoration:underline;
+	color:#656565;
+}
+.phone{
+	width:260px;
+	color:#656565;
+	height:60px;
+	position:relative;
+	left:45px;
+	top:65px;
+}
+.pwd{
+	width:260px;
+	color:#656565;
+	height:60px;
+	position:relative;
+	left:45px;
+	top:95px;
+}
+.code{
+	width:260px;
+	color:#656565;
+	height:70px;
+	position:relative;
+	left:45px;
+	top:125px;
+}
+#codeboxleft{
+	width:150px;
+}
+#codeboxright{
+	width:97px;
+	height:35px;
+	position:relative;
+	left:155px;
+	top:-39px;
+}
+.login{
+	width:100px;
+	height:40px;
+	position:relative;
+	left:55px;
+	top:155px;
+}
+.login a:link{
+	background:url(../images/login/login.png) no-repeat 0px 0px;
+	display:block;
+	height:40px;
+}
+.login a:hover{
+	background:url(../images/login/login.png) no-repeat -108px 0px;
+	display:block;
+	height:40px;
+}
+.line{
+	position:relative;
+	height:250px;
+	width:5px;
+	left:405px;
+	top:-150px;
+	background:url(../images/login/line.png) repeat;
+	}
+.tip{
+    color:red;
+    font-size:15px;
+   }

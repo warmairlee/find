@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+.foot{
+	color:white;
+	font-family:宋体;
+	background:url(../images/foot/bg.png);
+	background-size:cover;
+	width:auto;
+	height:100px;
+	padding:5px;
+}
+
+.footline1{
+	text-align:center;
+	margin:10px;
+}
+.footline2{
+	text-align:center;
+	margin:10px;
+}
+.foot .footline2 a{
+	text-decoration: none;
+	color:white;
+}
+.footline3{
+	text-align:center;
+	margin:10px;
+}
